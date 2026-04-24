@@ -16,7 +16,7 @@ OWNER_ID = '6066824309'  # Замените на ID владельца бота
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
-        "Поболтаем? :))\n\n<blockquote><i>Создано с помощью @ReFatherBot</i></blockquote>",
+        "Привет, это бот желтого чата, здесь ты можешь рассказать о своих проблемах, поделиться своими секретами или же пожаловаться. А так же предложить свои идеи. Бот полностью анонимный :))\n\n<blockquote><i>Создано с помощью @ReFatherBot</i></blockquote>",
         parse_mode='HTML'
     )
 
